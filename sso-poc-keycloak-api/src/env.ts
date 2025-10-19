@@ -5,9 +5,9 @@ export const env = {
     NODE_ENV: 'local',
     CORS_ORIGIN : '',
     PORT : '7007',
-    KeyCloakRealm : 'KenloOpen',
-    KeyCloakClientId : 'kenlo-open',
-    KeyCloakClientSecret : 'BLa89lRRZxSyMerc3gijsKGrTr8zEVKu',
+    KeyCloakRealm : 'produtos',
+    KeyCloakClientId : 'IntegradorExterno',
+    KeyCloakClientSecret : 'GnNPwMM19xHBRvUPM9snrHOQECJvY9dR',
     KeyCloakClientUrl : 'http://localhost:8080',
 
 }

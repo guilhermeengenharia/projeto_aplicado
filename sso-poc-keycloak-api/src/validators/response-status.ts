@@ -1,8 +1,7 @@
 import { Request, Response} from 'express';
 
-export const ResponseStatus = async (res: Response, code: any, data: any,total:any) => {
+export const ResponseStatus = async (res: Response, code: any, data: any,message:any) => {
     let type = "Success";
-    let message = '';
-    let response = { resCode: code, type: type, message: message,totalRow:total,data:data }
+    let response = { resCode: code, type: type, message: message,data:data }
     res.send(response);
 };

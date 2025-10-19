@@ -1,4 +1,4 @@
-import {Login, DecodedToken, AuthJWT} from "../entities/";
+import {Login, DecodedToken, AuthJWT} from "../domain/entities";
 import { Logger } from "../lib/logger";
 import { env } from "../env";
 import axios from "axios";

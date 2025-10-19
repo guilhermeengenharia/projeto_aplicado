@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Login from '../entities/login';
+import Login from '../domain/entities/login';
 import { ResponseStatus } from "../validators/response-status";
 import { Logger } from "../lib/logger";
 import { AuthApplication } from "../application/auth-app";

@@ -1,5 +1,5 @@
-import AuthJWT from "../entities/auth-jwt";
-import Login from "../entities/login";
+import AuthJWT from "../domain/entities/auth-jwt";
+import Login from "../domain/entities/login";
 import { KeycloakInfra } from "../infrastructure/keycloak";
 import { Logger } from "../lib/logger";
 import { IAuthApp } from "./iauth-app";

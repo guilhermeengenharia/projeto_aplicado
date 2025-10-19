@@ -18,7 +18,7 @@ class ProtegidoRoutes {
     );
     this.router.post(
       "/simulacao-protegido-admin",
-      requireAuth('admin'),
+      requireAuth('ADMIN'),
       this.controller.simularRoles
     );
   }
